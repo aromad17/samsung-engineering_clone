@@ -15,7 +15,11 @@ window.addEventListener("load", function () {
     value[i].classList.add("on");
   }
 
-
+  function noneAll(value) {
+    for (let el of value) {
+      el.style.display = "none";
+    }
+  }
 
   //---------------------------------------------------------------------------business
 
