@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.002" height="17.999" viewBox="0 0 25.002 17.999">
+  <g id="icon_down" transform="translate(-16731.998 467)">
+    <g id="그룹_1692" data-name="그룹 1692" transform="translate(1)">
+      <path id="합치기_1" data-name="합치기 1" d="M17762-1227v-7h2v5h21v-5h2v7Z" transform="translate(-1031 778)" fill="#3b9cc8"/>
+    </g>
+    <g id="arrow" transform="translate(-0.5 1)">
+      <rect id="사각형_2280" data-name="사각형 2280" width="2" height="11" transform="translate(16744 -468)" fill="#3b9cc8"/>
+      <path id="arrow_" data-name="arrow &lt;" d="M0,0,4.5,4,9,0" transform="translate(16740.5 -460.5)" fill="none" stroke="#3b9cc8" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

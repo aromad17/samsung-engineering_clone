@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="4" viewBox="0 0 30 4">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="30" height="4" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_" data-name="+" clip-path="url(#clip-path)">
+    <g id="_2" data-name="+" transform="translate(-1471.5 65.5)">
+      <line id="선_15" data-name="선 15" y2="30" transform="translate(1501.5 -63.5) rotate(90)" fill="none" stroke="#666" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

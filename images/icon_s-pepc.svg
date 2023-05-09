@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_5071" data-name="사각형 5071" width="96" height="96" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_S-PEpC" clip-path="url(#clip-path)">
+    <g id="그룹_2972" data-name="그룹 2972" transform="translate(0 3)">
+      <path id="패스_9673" data-name="패스 9673" d="M76.855,86.7A18.256,18.256,0,1,1,58.6,68.441,18.256,18.256,0,0,1,76.855,86.7" transform="translate(12.25 -51.748)" fill="#8c39cf"/>
+      <path id="패스_9674" data-name="패스 9674" d="M56.6,55.889H53.348V28.224h12.2l6.1,9.017V55.889H69.011" transform="translate(17.536 9.278)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9675" data-name="패스 9675" d="M69.646,43.089H59.964a2.032,2.032,0,0,1-2.024-2.04V29.758" transform="translate(19.046 9.782)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9676" data-name="패스 9676" d="M60.045,39.791H5.125v7.685h54.92v4.611H69.2v-12.3Z" transform="translate(1.685 13.08)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <rect id="사각형_5070" data-name="사각형 5070" width="53.395" height="27.665" rx="5" transform="translate(9.099 25.206)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9677" data-name="패스 9677" d="M67.848,51.723a6.1,6.1,0,1,1-6.1-6.148A6.126,6.126,0,0,1,67.848,51.723Z" transform="translate(18.291 14.981)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9678" data-name="패스 9678" d="M62.139,50.582a1.525,1.525,0,1,1-1.525-1.537,1.531,1.531,0,0,1,1.525,1.537" transform="translate(19.424 16.122)" fill="#fff"/>
+      <path id="패스_9679" data-name="패스 9679" d="M67.848,51.723a6.1,6.1,0,1,1-6.1-6.148A6.126,6.126,0,0,1,67.848,51.723Z" transform="translate(18.291 14.981)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9680" data-name="패스 9680" d="M16.213,50.582a1.525,1.525,0,1,1-1.525-1.537,1.531,1.531,0,0,1,1.525,1.537" transform="translate(4.326 16.122)" fill="#fff"/>
+      <path id="패스_9681" data-name="패스 9681" d="M21.922,51.723a6.1,6.1,0,1,1-6.1-6.148A6.126,6.126,0,0,1,21.922,51.723Z" transform="translate(3.194 14.981)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9682" data-name="패스 9682" d="M27.695,50.582a1.525,1.525,0,1,1-1.525-1.537,1.531,1.531,0,0,1,1.525,1.537" transform="translate(8.101 16.122)" fill="#fff"/>
+      <path id="패스_9683" data-name="패스 9683" d="M33.4,51.723a6.1,6.1,0,1,1-6.1-6.148A6.126,6.126,0,0,1,33.4,51.723Z" transform="translate(6.969 14.981)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9684" data-name="패스 9684" d="M33.829,19.531V15.58a.6.6,0,0,1,.509-.658h8.136a.6.6,0,0,1,.509.658v3.952" transform="translate(11.12 4.905)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="선_5166" data-name="선 5166" y2="27.665" transform="translate(20.54 25.206)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="선_5167" data-name="선 5167" y2="27.665" transform="translate(32.744 25.206)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="선_5168" data-name="선 5168" x2="12.204" transform="translate(20.54 31.354)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="선_5169" data-name="선 5169" x2="10.679" transform="translate(21.303 39.039)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="패스_9685" data-name="패스 9685" d="M0,0H12.2" transform="translate(20.54 46.723)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
