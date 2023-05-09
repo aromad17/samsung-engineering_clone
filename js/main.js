@@ -1,13 +1,5 @@
 window.addEventListener("load", function () {
 
-
-  function activation(i, value) {
-    for (let el of value) {
-      el.style.display = "none";
-    }
-    value[i].style.display = "block";
-  }
-
   function activationOn(i, value) {
     for (let el of value) {
       el.classList.remove("on");
@@ -19,6 +11,7 @@ window.addEventListener("load", function () {
     for (let el of value) {
       el.style.display = "none";
     }
+
   }
 
   //---------------------------------------------------------------------------business
@@ -123,6 +116,7 @@ window.addEventListener("load", function () {
   const businessConWrap = document.querySelector(".business_content_wrap");
   const innoContWrap = document.querySelector(".innovation_content");
   const delivery = document.querySelector(".delivery");
+  const beyond = document.querySelector(".beyond");
   const windowWid = window.innerWidth;
 
 
@@ -136,7 +130,7 @@ window.addEventListener("load", function () {
       if (windowHeight >= 1200) {
         businessConWrap.classList.add("on");
 
-        if (windowHeight >= 1900) {
+        if (windowHeight >= 1900 && !beyond.classList.contains("on") && !delivery.classList.contains("on")) {
           innoContWrap.style.opacity = 1;
           setTimeout(() => {
             delivery.classList.add("on");
