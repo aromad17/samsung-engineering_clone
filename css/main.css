@@ -2105,6 +2105,10 @@ section.sec_business>.inner {
 
 
 @media screen and (max-width:768px) {
+  .news {
+    width: 100%;
+  }
+
   .pagination {
     position: absolute;
     top: 75%;
