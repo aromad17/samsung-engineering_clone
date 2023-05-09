@@ -156,18 +156,18 @@ window.addEventListener("load", function () {
       } else if (windowHeight >= 4000) {
         toTop.classList.add("on");
       }
-    } else if (windowWid <= 1300 && windowWid > 480) {
+    } else if (windowWid <= 1300 && windowWid > 768) {
       if (windowHeight < 70) {
         toTop.style.display = "none";
-      } else if (windowHeight >= 70 && windowHeight < 5600) {
+      } else if (windowHeight >= 70 && windowHeight < 4300) {
         toTop.style.display = "block";
         toTop.style.bottom = "3" + "%";
         toTop.classList.remove("on");
-      } else if (windowHeight >= 5600) {
+      } else if (windowHeight >= 4300) {
         toTop.classList.add("on");
-        toTop.style.bottom = "70" + "%";
+        toTop.style.bottom = "15" + "%";
       }
-    } else if (windowWid <= 480) {
+    } else if (windowWid <= 768) {
       if (windowHeight < 70) {
         toTop.style.display = "none";
       } else if (windowHeight >= 70 && windowHeight < 5100) {
