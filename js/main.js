@@ -24,37 +24,45 @@ window.addEventListener("load", function () {
   const nextBusiness = document.querySelectorAll(".nextBusiness");
   let nowIdx = 0;
 
-  businessMenu.forEach((item, idx) => {
-    item.addEventListener("click", e => {
-      e.preventDefault();
-      businessBox.style.left = -(boxWid * idx) + "px";
-      nowIdx = idx;
-      noneAll(businessPic);
-      businessPic[idx].style.display = "block";
-      activationOn(idx, businessMenu);
-    })
-
-  })
-
   prevBusiness.forEach((item, idx) => {
+
     item.addEventListener("click", e => {
       e.preventDefault();
+
+      nowIdx -= 1;
+      if (nowIdx < 0) {
+        nowIdx = 6;
+      }
+
+      console.log(nowIdx);
+
       boxWid = businessBox.children[0].clientWidth;
+
       if (idx <= 0) {
         idx = 7;
       }
+
       businessBox.style.left = -((idx - 1) * boxWid) + "px";
+
       noneAll(businessPic);
+
       for (let el of businessMenu) {
         el.classList.remove("on");
       }
+
       businessMenu[idx - 1].classList.add("on");
       businessPic[(idx - 1)].style.display = "block";
     })
   })
+
   nextBusiness.forEach((item, idx) => {
     item.addEventListener("click", e => {
       e.preventDefault();
+      nowIdx += 1;
+      if (nowIdx == 7) {
+        nowIdx = 0;
+      }
+      console.log(nowIdx);
       boxWid = businessBox.children[0].clientWidth;
       if (idx == 6) {
         idx = -1;
@@ -69,6 +77,24 @@ window.addEventListener("load", function () {
     })
   })
 
+  businessMenu.forEach((item, idx) => {
+
+    item.addEventListener("click", e => {
+      e.preventDefault();
+      businessBox.style.left = -(boxWid * idx) + "px";
+      nowIdx = idx;
+      noneAll(businessPic);
+      businessPic[idx].style.display = "block";
+      activationOn(idx, businessMenu);
+    })
+
+    window.addEventListener('resize', () => {
+      boxWid = businessBox.children[0].clientWidth;
+      businessBox.style.left = (boxWid * -nowIdx) + "px";
+      console.log(nowIdx)
+    })
+
+  })
   // --------------------------------------------------------------------counting
 
   const countNum = document.querySelectorAll(".counting_num");
@@ -122,7 +148,6 @@ window.addEventListener("load", function () {
 
   window.addEventListener("scroll", () => {
     let windowHeight = document.querySelector("html").scrollTop;
-    console.log(windowHeight);
     // 숫자 따르르
     if (windowHeight >= 500) {
       setTimeout(finalNum, 800);

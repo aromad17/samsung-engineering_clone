@@ -339,7 +339,7 @@ ul.ham_gnb>li>div>ul>li>ul>li>a {
 .pagination {
   position: absolute;
   top: 72%;
-  left: 260px;
+  left: 7%;
   transform: translateY(-50%);
   z-index: 50;
 }
@@ -416,7 +416,6 @@ li.play_btn>a.on {
   bottom: -420px;
   right: 0;
   width: 538px;
-  min-width: 538px;
   height: 492.833px;
   padding: 28px 0 60px 60px;
   box-sizing: border-box;
@@ -1588,10 +1587,6 @@ section.sec_business>.inner {
   line-height: 34px;
 }
 
-/* //sec_newsroom */
-
-/* footer */
-
 /*-------------------------------------------------------------------------------------------------------------- 반응형 ---------------------------------------------------------------*/
 
 @media screen and (max-width:1400px) {
@@ -1674,7 +1669,7 @@ section.sec_business>.inner {
   .main_visual>ul>li.on>p {
     padding: 175px 70px 0;
     box-sizing: content-box;
-    font-size: 50px;
+    font-size: 6vh;
     font-weight: bold;
     opacity: 1;
     transform: translateY(30%);
@@ -1689,8 +1684,8 @@ section.sec_business>.inner {
   }
 
   .main_visual>ul>li>p>span {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 150%;
   }
 
   .main_visual>ul>li:nth-child(1) {
@@ -1711,14 +1706,6 @@ section.sec_business>.inner {
   .main_visual>ul>li>video,
   .play_btn {
     display: none;
-  }
-
-  .pagination {
-    position: absolute;
-    top: 70%;
-    left: 70px;
-    transform: translateY(-50%);
-    z-index: 50;
   }
 
   .news {
@@ -2111,7 +2098,8 @@ section.sec_business>.inner {
 
   .pagination {
     position: absolute;
-    top: 75%;
+    top: unset;
+    bottom: 20%;
     left: 70px;
     transform: translateY(-50%);
     z-index: 50;
@@ -2300,8 +2288,8 @@ section.sec_business>.inner {
     height: 700px;
   }
 
-  .pagination {
-    top: 60%;
+  .main_visual>ul>li.on>p {
+    font-size: 4vh;
   }
 
   section.sec_value>.inner {

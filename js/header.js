@@ -37,7 +37,6 @@ window.addEventListener("load", () => {
   window.addEventListener("resize", () => {
     windowHeight = document.documentElement.clientHeight;
     hamWrap.style.height = windowHeight + "px";
-    console.log(windowHeight)
   })
 
 
